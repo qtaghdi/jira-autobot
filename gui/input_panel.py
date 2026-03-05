@@ -146,7 +146,7 @@ class InputPanel(ttk.LabelFrame):
             return
 
         from git_client import validate_repo, get_commits
-        from gemini_client import analyze_commits
+        from groq_client import analyze_commits
 
         ok, msg = validate_repo(repo_path)
         if not ok:

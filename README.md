@@ -115,7 +115,7 @@ jira-autobot/
 ├── models.py            # 데이터 모델 (CommitInfo, TaskEntry)
 ├── jira_client.py       # Jira REST API 클라이언트
 ├── git_client.py        # Git 로그 조회
-├── gemini_client.py     # Groq LLM 커밋 분석
+├── groq_client.py       # Groq LLM 커밋 분석
 ├── data_parser.py       # 채팅/JSON 데이터 파서
 ├── jira_subtask.py      # CLI 독립 실행 스크립트
 ├── gui/
